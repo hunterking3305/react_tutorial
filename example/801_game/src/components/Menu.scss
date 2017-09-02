@@ -1,0 +1,27 @@
+.menu{
+  position: absolute;
+  right: 0;
+  width: 380px;
+  top: 0;
+  bottom: 0;
+  background: #eee;
+  text-align: center;
+
+  &-money,
+  &-passday{
+    width: 301px;
+    $h: 40px;
+    height: $h;
+    line-height: $h;
+    margin: 20px auto;
+    color: #ffc;
+    background: #963;
+    font-size: 20px;
+    text-shadow: 1px 1px 0 black;
+  }
+
+  &-passday{
+    color: white;
+    cursor: pointer;
+  }
+}

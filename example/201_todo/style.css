@@ -1,0 +1,23 @@
+.todo{
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.todo-input{
+  background-color: #ddd;
+  border: 1px solid #ccc;
+  margin-bottom: 4px;
+}
+
+.todo-list{
+  border: 1px solid #ccc;
+  padding-left: 0;
+  list-style: none;
+}
+
+.todo-item{
+  background-color: #eee;
+  margin-bottom: 1px;
+  padding: 4px 8px;
+}

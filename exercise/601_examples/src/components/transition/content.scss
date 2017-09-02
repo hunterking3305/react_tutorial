@@ -1,0 +1,75 @@
+.content-container{
+  position: relative;
+  width: 720px;
+  margin: 0 auto;
+  min-height: 100%;
+  background: white;
+}
+.content{
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 60px;
+  box-sizing: border-box;
+
+  font-size: 32px;
+  line-height: 64px;
+}
+
+// code here...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.left-enter{
+  opacity: 0;
+  transform: translateX(100px);
+}
+.left-enter-active{
+  opacity: 1;
+  transform: none;
+  transition: opacity .3s, transform .3s;
+}
+.left-leave{
+  position: absolute;
+  opacity: 1;
+  transform: none;
+}
+.left-leave-active{
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: opacity .3s, transform .3s;
+}
+
+.right-enter{
+  opacity: 0;
+  transform: translateX(-100px);
+}
+.right-enter-active{
+  opacity: 1;
+  transform: none;
+  transition: opacity .3s, transform .3s;
+}
+.right-leave{
+  position: absolute;
+  opacity: 1;
+  transform: none;
+}
+.right-leave-active{
+  opacity: 0;
+  transform: translateX(100px);
+  transition: opacity .3s, transform .3s;
+}

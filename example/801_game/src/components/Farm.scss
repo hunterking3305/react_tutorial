@@ -1,0 +1,24 @@
+.farm{
+  position: absolute;
+  left: 0;
+  right: 380px;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  background: #aca;
+  &:before{
+    content: '';
+    width: 0;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.farm-plants{
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: auto;
+  width: 780px;
+}

@@ -1,0 +1,13 @@
+body{
+  text-align: center;
+}
+
+.section{
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 50px;
+  margin-bottom: 100px;
+}
+input[type='button']{
+  margin: 4px;
+}

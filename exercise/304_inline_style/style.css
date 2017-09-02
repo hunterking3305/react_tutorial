@@ -1,0 +1,47 @@
+html,body,#content{
+  margin: 0;
+  padding: 0;
+  width:  100%;
+  height: 100%;
+}
+
+body{
+  text-align: center;
+  background-color: #AAC07B;
+  font-family: 'Arial', 'Microsoft JhengHei';
+}
+
+.app{
+  position: absolute;
+  width:  100%;
+  height: 100%;
+}
+
+.nav{
+  position: absolute;
+  width:  100%;
+  height: 40px;
+  background: #5D6838;
+}
+.nav span{
+  display: inline-block;
+  width: 80px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  margin: 0 4px;
+  cursor: pointer;
+}
+.nav span:hover{
+  text-decoration: underline;
+}
+
+
+.canvas{
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  right: 80px;
+  bottom: 80px;
+  transition: background-color .3s;
+}

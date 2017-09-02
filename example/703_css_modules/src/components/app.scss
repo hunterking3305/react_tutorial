@@ -1,0 +1,22 @@
+:global{
+  html, body{
+    background: grey;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+  .app{
+    position: relative;
+    width: 720px;
+    margin: auto;
+    background: white;
+  }
+}
+
+.item{
+  display: inline-block;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #c99;
+}

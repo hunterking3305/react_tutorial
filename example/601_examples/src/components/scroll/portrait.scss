@@ -1,0 +1,13 @@
+.portrait{
+  display: block;
+  width:  258px;
+  height: 350px;
+  margin: 20px auto;
+  opacity: 0;
+  transform: translateX(30px);
+  transition: opacity .5s, transform .5s;
+  &.show{
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,6 @@
+#########################
+/example/306_webpack/node_modules/*
+/exercise/400_comment_box/node_modules/*
+/exercise/401_game/node_modules/*
+/exercise/402_problem/node_modules/*
+/exercise/601_examples/node_modules/*

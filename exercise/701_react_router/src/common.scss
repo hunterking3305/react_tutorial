@@ -1,0 +1,46 @@
+html,body{
+  margin: 0;
+  padding: 0;
+  width:  100%;
+  height: 100%;
+}
+
+body{
+  background: #eee;
+  font-family: 'Arial', 'Microsoft JhengHei';
+  text-align: center;
+}
+
+#content{
+  position: relative;
+  width:  720px;
+  min-height: 100%;
+  background: white;
+  margin: 0 auto;
+  padding: 20px 60px;
+  box-sizing: border-box;
+}
+
+h1{
+  margin: 0 0 20px;
+  padding: 0 0 8px;
+  border-bottom: 1px solid #ccc;
+  color: #336;
+  font-size: 32px;
+  font-weight: normal;
+  text-align: left;
+}
+
+button{
+  $h: 40px;
+  height: $h;
+  line-height: $h;
+  font-family: inherit;
+  font-size: 14px;
+  text-align: center;
+  padding: 0 30px;
+  background: #000;
+  color: white;
+  cursor: pointer;
+  border: none;
+}

@@ -1,0 +1,69 @@
+.seed{
+  width: 301px;
+  height: 90px;
+  display: inline-block;
+  margin: 1px;
+  cursor: pointer;
+
+  border: 2px solid transparent;
+
+  &.cantbuy{
+    opacity: .3;
+    pointer-events: none;
+  }
+
+  &.planting{
+    border-color: #930;
+  }
+
+  >div{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &-img{
+    $size: 90px;
+    width: $size;
+    height: $size;
+    background: #ccc;
+    margin-right: 1px;
+  }
+
+  &-info{
+    width: 210px;
+    color: white;
+    text-shadow: 1px 1px 0 #630;
+    text-align: center;
+
+    .name{
+      $h: 40px;
+      height: $h;
+      line-height: $h;
+      background: #B74;
+      font-size: 16px;
+      font-weight: bolder;
+    }
+    .tag{
+      display: inline-block;
+      width: 70px;
+    }
+    .tag+.tag{
+      border-left: 1px solid white;
+      box-sizing: border-box;
+    }
+    .label{
+      $h: 20px;
+      height: $h;
+      line-height: $h;
+      font-size: 12px;
+      background: #963;
+    }
+    .value{
+      $h: 30px;
+      height: $h;
+      line-height: $h;
+      font-size: 14px;
+      background: #c96;
+    }
+  }
+}
