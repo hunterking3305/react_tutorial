@@ -16,12 +16,14 @@ var Content = React.createClass({
     }
   },
   render:function(){
-    // code here...
+    const {page} = this.props
+    // 注意:建議這樣寫
+    const PageComponent = page.component
     return (
       <div className='content-container'>
         <ReactCSSTransitionGroup transitionName={this.state.transition}>
           <div className='content' key={this.props.page.id}>
-            {/* code here... */}
+            <PageComponent/>
           </div>
         </ReactCSSTransitionGroup>
       </div>

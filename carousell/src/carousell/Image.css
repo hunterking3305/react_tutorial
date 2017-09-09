@@ -1,0 +1,38 @@
+.img-container{
+  position: relative;
+  width: 480px;
+  height: 320px;
+  left: 50%;
+  margin-left: -240px;
+}
+.img{
+  position: absolute;
+  left: 50%;
+  top: 0;
+  height: 300px;
+  transform: translateX(-50%);
+  /*opacity: 0;*/
+  transition: all .3s;
+}
+
+.img.left{
+  opacity: 0;
+  transform: translateX(-100%);
+}
+.img.right{
+  opacity: 0;
+  transform: translateX(0);
+}
+
+.btn-prev{
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  bottom: 0;
+}
+.btn-next{
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  bottom: 0;
+}

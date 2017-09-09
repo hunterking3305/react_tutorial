@@ -9,10 +9,16 @@ var Profile = React.createClass({
       name: ' '
     };
   },
-  // code here...
-
+  componentDidMount: function() {
+    FB.api('/me',
+    {
+      fields:['picture.width(240)', 'name']
+    },
+     this.profileGet)
+  },
 
   profileGet:function(rs){
+    console.log(rs)
     this.setState({
       picture: rs.picture.data.url,
       name: rs.name

@@ -15,11 +15,11 @@ var FBStatus = React.createClass({
       xfbml  : false,
       version: 'v2.6'
     });
-    // code here...
+    FB.getLoginStatus(this.loginStatus)
   },
   login:function(){
     this.setState({status:'loading'});
-    // code here...
+    FB.login(this.loginStatus)
   },
   loginStatus:function(rs){
     if(rs.status==='connected'){
